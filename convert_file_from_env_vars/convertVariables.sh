@@ -1,6 +1,6 @@
 function convert() {
 
-    variable_file="$1"
+    variable_file=$1
     source ${variable_file}
     variable_keys=($(awk -F= '$2!=""{print $1}' ${variable_file} | awk '{print $2}'))
     
