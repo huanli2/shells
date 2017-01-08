@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+   web:
+     build: .
+     ports:
+       - ${C}: 200
+     volumes:
+       - ${A}
+   redis: 
+     image: ${A}/${B}
