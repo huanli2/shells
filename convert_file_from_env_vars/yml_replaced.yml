@@ -4,8 +4,8 @@ services:
    web:
      build: .
      ports:
-       - ${C}: 200
+       - 2014: 200
      volumes:
-       - ${A}
+       - a.com
    redis: 
-     image: ${A}/${B}
+     image: a.com/test

@@ -8,4 +8,4 @@ services:
      volumes:
        - ${A}
    redis: 
-     image: ${A}/${B}
+     image: ${B}
