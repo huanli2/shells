@@ -4,7 +4,7 @@ add shell files witch provide little and common functions
 ## convert_file_from_env_vars
 * 功能说明
 ```
-将指定sh文件中的环境变量值替换到另一份文件中的变量名中
+将指定sh文件中的环境变量值替换到另一份文件的变量名中
 ```
 * 文件说明
 ```
